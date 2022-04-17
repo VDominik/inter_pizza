@@ -1,5 +1,8 @@
 .container {
   padding: 0 2rem;
+  background-image: url("../public/background2.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 .main {
@@ -10,15 +13,36 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
-.footer {
+.hero{
+  height: 600px;
+  width: 100%;
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  color: white;
   justify-content: center;
   align-items: center;
+  border: white 1px solid;
+}
+
+.column {
+  color: white;
+  float: left;
+  width: 50%;
+  height: 200px;
+  border: white 1px solid;
+  border-radius: 5px;
+}
+
+.interactive {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border: white 1px solid;
 }
 
 .footer a {
