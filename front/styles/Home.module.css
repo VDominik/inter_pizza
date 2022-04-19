@@ -1,6 +1,6 @@
 .container {
   padding: 0 2rem;
-  background-image: url("../public/background2.jpg");
+  background-image: url("../public/pizzabackground.png");
   background-size: 100% 100%;
   background-attachment: fixed;
 }
@@ -13,7 +13,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .hero{
@@ -23,7 +22,42 @@
   color: white;
   justify-content: center;
   align-items: center;
-  border: white 1px solid;
+  border-radius: 5px;
+  background-image: url("../public/hero4.jpg");
+  background-size: 100% 100%;
+}
+
+.heroHeader {
+  text-align: center;
+}
+
+.hero button {
+  background: linear-gradient(to bottom right, #FF9A5A, red);
+  border: 0;
+  border-radius: 12px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  margin-top: 2rem;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.interHeader {
+  text-align: center;
+  color: white;
+  padding: 12px;
 }
 
 .column {
@@ -33,6 +67,33 @@
   height: 200px;
   border: white 1px solid;
   border-radius: 5px;
+}
+
+.buyButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.column button {
+  background: linear-gradient(to bottom right, #FF9A5A, red);
+  border: 0;
+  border-radius: 12px;
+  color: black;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  margin-top: 2rem;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
 }
 
 .interactive {

@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import bg from '../public/background.jpg'
 import Head from "next/head";
 import '../styles/globals.css'
 
