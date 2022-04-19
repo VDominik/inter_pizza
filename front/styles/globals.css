@@ -26,7 +26,9 @@ a {
   padding: 10px 0;
   display: flex;
   justify-content: flex-end;
+  border-bottom: white 1px solid;
 }
+
 .navbar a {
   color: white;
   font-size: large;
@@ -34,10 +36,41 @@ a {
   margin-left: 10px;
   text-decoration: none;
 }
+
 .navbar .logo {
   margin-right: auto;
+  background-image: url("../public/pizzalogo.png");
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+
+.navbar .logo p {
+  display: inline;
+  font-weight: bold;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.contact {
+  margin: 12px;
+  color: white;
+}
+
+.contact .mapa {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact .popis {
+  float: left;
+}
+
+.contact .popis .socials p {
+  display: inline;
+  margin: 1rem;
 }
 
 * {
   box-sizing: border-box;
 }
+
