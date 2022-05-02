@@ -1,7 +1,7 @@
 .container {
   padding: 0 2rem;
   background-image: url("../public/pizzabackground.png");
-  background-size: 100% 100%;
+  object-fit: cover;
   background-attachment: fixed;
 }
 
@@ -60,13 +60,23 @@
   padding: 12px;
 }
 
+.menu {
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
 .column {
   color: white;
   float: left;
-  width: 50%;
+  width: 30%;
   height: 200px;
   border: white 1px solid;
   border-radius: 5px;
+  margin: 10px;
 }
 
 .buyButton {
