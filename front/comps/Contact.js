@@ -7,10 +7,11 @@ const Contact = () => {
 
         <div className="popis">
             <p>Nájdete nás na adrese:</p>
+            <p>Trieda Andreja Hlinku 1, 949 74 Nitra-Chrenová</p>
             <h4>Telefón:</h4>
-            <p>0915216588</p>
+            <p>0908155266</p>
             <h4>Email:</h4>
-            <p>V.Dominik11@gmail.com</p>
+            <p>interactivepizza@gmail.com</p>
             <div className="socials">
                 <h5>Sledujte nás aj na:</h5>
                 <p>FB</p>

@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '../comps/Navbar'
 import Footer from '../comps/Footer'
-import styles from '../styles/Home.module.css'
 import Contact from "../comps/Contact";
+import Menu from "../comps/Menu";
+import styles from '../styles/Home.module.css'
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <div className={styles.hero}>
         <div className={styles.heroHeader}>
           <h1>InteractivePizza</h1>
-          <button>Objednaj si pizzu</button>
+          <Link href="#interactive"><button>Objednaj si pizzu</button></Link>
         </div>
       </div>
 
@@ -30,32 +30,7 @@ export default function Home() {
         <h1>Vyberte si pizzu z menu</h1>
       </div>
 
-      <div className={styles.menu} id="menu">
-        <div className="row">
-          <div className={styles.column}>
-            <h2>Pizza 1</h2>
-            <h4>Ingrediencie: </h4>
-            <p>Data...</p>
-            <div className={styles.buyButton}>
-              <button type={"button"}>Do koša</button>
-            </div>
-          </div>
-          <div className={styles.column}>
-            <h2>Pizza 2</h2>
-            <p>Data..</p>
-          </div>
-        </div>
-        <div className="row">
-          <div className={styles.column}>
-            <h2>Pizza 3</h2>
-            <p>Data..</p>
-          </div>
-          <div className={styles.column}>
-            <h2>Pizza 4</h2>
-            <p>Data..</p>
-          </div>
-        </div>
-      </div>
+    <Menu />
 
     <Contact />
 
