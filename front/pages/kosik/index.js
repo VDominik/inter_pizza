@@ -1,9 +1,9 @@
 import Navbar from "../../comps/Navbar";
 import Footer from "../../comps/Footer";
 
-export default function Home() {
+export default function kosik() {
     return (
-        <div className={styles.container}>
+        <div>
 
             <Navbar />
 
