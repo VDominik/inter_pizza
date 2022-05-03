@@ -1,7 +1,7 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 0rem;
   background-image: url("../public/pizzabackground.png");
-  object-fit: cover;
+  object-fit: scale-down;
   background-attachment: fixed;
 }
 
@@ -16,15 +16,16 @@
 }
 
 .hero{
-  height: 600px;
+  height: 800px;
   width: 100%;
   display: flex;
   color: white;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  background-image: url("../public/hero4.jpg");
-  background-size: 100% 100%;
+  background-image: url("../public/hero_pizza.jpg");
+  background-size: cover;
+  overflow: hidden;
 }
 
 .heroHeader {
@@ -54,6 +55,11 @@
   white-space: nowrap;
 }
 
+.hero button:hover{
+  color: white;
+  transition: 0.5s;
+}
+
 .interHeader {
   text-align: center;
   color: white;
@@ -66,7 +72,7 @@
 
 .row {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .column {
@@ -77,11 +83,13 @@
   border: white 1px solid;
   border-radius: 5px;
   margin: 10px;
+  padding: 8px;
 }
 
 .buyButton {
   display: flex;
   justify-content: flex-end;
+
 }
 
 .column button {
