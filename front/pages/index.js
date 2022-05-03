@@ -4,6 +4,7 @@ import Contact from "../comps/Contact";
 import Menu from "../comps/Menu";
 import styles from '../styles/Home.module.css'
 import Link from "next/link";
+import Interactive from "../comps/Interactive";
 
 export default function Home() {
   return (
@@ -22,9 +23,7 @@ export default function Home() {
         <h1>Vyskladajte si vlastnú pizzu</h1>
       </div>
 
-      <div className={styles.interactive} id="interactive">
-        <h1>Interactive</h1>
-      </div>
+    <Interactive/>
 
       <div className={styles.interHeader}>
         <h1>Vyberte si pizzu z menu</h1>
