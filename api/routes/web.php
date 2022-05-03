@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MenuController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +13,6 @@ use App\Http\Controllers\MenuController;
 |
 */
 
-Route::get('/api/menu', [MenuController::class, 'showMenu']);
+Route::get('/', function () {
+    return view('welcome');
+});
