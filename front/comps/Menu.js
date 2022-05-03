@@ -4,6 +4,7 @@ import React from 'react';
 
 const axios = require('axios');
 
+
 class Menu extends React.Component {
 
     constructor() {
@@ -29,44 +30,25 @@ class Menu extends React.Component {
     render() {
     return(
         <div className={styles.menu} id="menu">
+            <div className={styles.row}>
             {this.state.data.map((result) => {
                 return (
 
-            <div className={styles.row}>
+
                 <div className={styles.column}>
-                    <h2>{result.id}</h2>
-                    <h4>{result.nazov}</h4>
+                    <h4>{result.id}. {result.nazov}</h4>
                     <p>{result.ingrediencie}</p>
+
                     <div className={styles.buyButton}>
-                        <button type={"button"}>Do koša</button>
+                        <button type={"button"}>Vložiť do pece</button>
                     </div>
+                    <p>Cena: {result.cena}€</p>
                 </div>
-                <div className={styles.column}>
-                    <h2>Pizza 2</h2>
-                    <p>Data..</p>
-                </div>
-                <div className={styles.column}>
-                    <h2>Pizza 3</h2>
-                    <p>Data..</p>
-                </div>
-            </div>
+
+
                     )
                 }
             )}
-
-            <div className={styles.row}>
-                <div className={styles.column}>
-                    <h2>Pizza 4</h2>
-                    <p>Data..</p>
-                </div>
-                <div className={styles.column}>
-                    <h2>Pizza 5</h2>
-                    <p>Data..</p>
-                </div>
-                <div className={styles.column}>
-                    <h2>Pizza 6</h2>
-                    <p>Data..</p>
-                </div>
             </div>
         </div>
     );
