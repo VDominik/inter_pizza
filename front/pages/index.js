@@ -5,9 +5,23 @@ import Menu from "../comps/Menu";
 import styles from '../styles/Home.module.css'
 import Link from "next/link";
 import Interactive from "../comps/Interactive";
+import {useState} from "react";
 import Gallery from "../comps/Gallery"
 
 export default function Home() {
+
+  const[ingredients, setIngredients] = useState({
+    salam: false,
+    sunka: false,
+    hriby: false,
+    olivy: false,
+    kukurica: false,
+    vajce: false,
+    syr: false,
+    cibula: false,
+    ananas: false,
+  });
+
   return (
   <div className={styles.container}>
 
@@ -24,7 +38,7 @@ export default function Home() {
         <h1>Vyskladajte si vlastnú pizzu</h1>
       </div>
 
-    <Interactive/>
+    <Interactive ingredience={ingredients} setIngredients={setIngredients} />
 
       <div className={styles.interHeader}>
         <h1>Vyberte si pizzu z menu</h1>
