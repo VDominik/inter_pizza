@@ -8,6 +8,7 @@ import Interactive from "../comps/Interactive";
 
 import {useState} from "react";
 import Gallery from "../comps/Gallery"
+import PizzaList from "../comps/PizzaList";
 
 
 export default function Home() {
@@ -45,6 +46,7 @@ export default function Home() {
       <div className={styles.interHeader} id="menu">
         <h1>Vyberte si pizzu z menu</h1>
       </div>
+    <PizzaList/>
 
     <Menu />
 
