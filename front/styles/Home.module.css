@@ -1,6 +1,6 @@
 .container {
   padding: 0 0rem;
-  background-image: url("public/pizzabackground.png");
+  background-image: url("../public/pizzabackground.png");
   object-fit: scale-down;
   background-attachment: fixed;
 }
@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  background-image: url("public/hero_pizza.jpg");
+  background-image: url("../public/hero_pizza.jpg");
   background-size: cover;
   overflow: hidden;
 }
@@ -215,7 +215,7 @@
 }
 
 .interactive {
-  height: 700px;
+  height: 100%;
   width: 100%;
 background-size: cover;
 

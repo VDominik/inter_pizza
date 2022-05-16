@@ -1,0 +1,48 @@
+.container {
+    padding: 0 0rem;
+    object-fit: scale-down;
+    background-attachment: fixed;
+}
+
+.formwrapper {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+.form {
+    padding: 20px;
+    height: 600px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.button {
+    background: linear-gradient(to bottom right, #9fff5a, #c5e0c6);
+    border: 0;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    margin-top: 2rem;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}

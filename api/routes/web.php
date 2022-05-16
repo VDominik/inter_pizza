@@ -15,3 +15,5 @@ use App\Http\Controllers\MenuController;
 */
 
 Route::get('/api/menu', [MenuController::class, 'showMenu']);
+Route::get('/api/objednavky', [MenuController::class, 'showObjednavky']);
+

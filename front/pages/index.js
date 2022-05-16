@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css'
 import Link from "next/link";
 import Interactive from "../comps/Interactive";
 import {useState} from "react";
+import Gallery from "../comps/Gallery"
 
 export default function Home() {
 
@@ -44,6 +45,8 @@ export default function Home() {
       </div>
 
     <Menu />
+
+    <Gallery />
 
     <Contact />
 
