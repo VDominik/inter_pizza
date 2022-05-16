@@ -3,6 +3,7 @@
   background-image: url("../public/pizzabackground.png");
   object-fit: scale-down;
   background-attachment: fixed;
+  z-index: 999;
 }
 
 .main {
@@ -114,15 +115,7 @@
   white-space: nowrap;
 }
 
-.interactive {
-  height: 600px;
-  width: 100%;
-  display: flex;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  border: white 1px solid;
-}
+
 
 .footer a {
   display: flex;
@@ -217,3 +210,77 @@
     flex-direction: column;
   }
 }
+
+.interactive {
+  height: 700px;
+  width: 100%;
+background-size: cover;
+
+
+  /*height: 600px;*/
+  /*width: 100%;*/
+  /*display: flex;*/
+  /*color: white;*/
+
+  /*align-items: center;*/
+  border: white 1px solid;
+}
+
+.interactiveContainer {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 20% 45% 35%;
+
+
+}
+
+.interactiveBox {
+
+  /*background-color: #444;*/
+  /*color: #fffffffff;*/
+  /*opacity: 50%;*/
+  border-radius: 5px;
+  padding: 5%;
+  margin: 0.5%;
+
+
+  font-size: 150%;
+
+}
+
+.pizza {
+
+  text-align: center;
+
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  height: 100%;
+
+
+}
+.griditem {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  text-align: center;
+
+  /*margin: 5px;*/
+}
+
+.velkostcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  height: 100%;
+
+
+}
+.velkostitem {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+
+  text-align: center;
+  /*margin: 5px;*/
+}
+

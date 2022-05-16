@@ -5,6 +5,7 @@ import Menu from "../comps/Menu";
 import styles from '../styles/Home.module.css'
 import Link from "next/link";
 import Interactive from "../comps/Interactive";
+import PizzaList from "../comps/PizzaList";
 
 export default function Home() {
   return (
@@ -25,10 +26,10 @@ export default function Home() {
 
     <Interactive/>
 
-      <div className={styles.interHeader}>
+      <div className={styles.interHeader} id="menu">
         <h1>Vyberte si pizzu z menu</h1>
       </div>
-
+   <PizzaList/>
     <Menu />
 
     <Contact />

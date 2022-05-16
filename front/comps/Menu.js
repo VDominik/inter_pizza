@@ -29,7 +29,7 @@ class Menu extends React.Component {
 
     render() {
     return(
-        <div className={styles.menu} id="menu">
+        <div className={styles.menu} >
             <div className={styles.row}>
             {this.state.data.map((result) => {
                 return (
