@@ -114,6 +114,10 @@
   white-space: nowrap;
 }
 
+.griditem button{
+  background: none;
+  border: none;
+}
 
 
 .footer a {
@@ -227,7 +231,7 @@ background-size: cover;
 
 .interactiveContainer {
   display: grid;
-  height: 100%;
+  height: 90%;
   grid-template-columns: 20% 45% 35%;
 
 
@@ -238,9 +242,9 @@ background-size: cover;
   /*background-color: #444;*/
   /*color: #fffffffff;*/
   /*opacity: 50%;*/
-  border-radius: 5px;
-  padding: 5%;
+
   margin: 0.5%;
+position: relative;
 
 
   font-size: 150%;
@@ -249,8 +253,14 @@ background-size: cover;
 
 .pizza {
 
-  text-align: center;
+height: 100%;
+  position: absolute;
 
+}
+
+.ingerdiencie{
+  height: 100%;
+  position: absolute;
 }
 
 .gridcontainer {
