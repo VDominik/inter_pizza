@@ -1,0 +1,337 @@
+.container {
+    padding: 0 0rem;
+    background-image: url("../public/pizzabackground.png");
+    background-size: 100% 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-image: url("../public/hero_pizza.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.heroHeader {
+    text-align: center;
+}
+
+.hero button {
+    background: linear-gradient(to bottom right, #FF9A5A, red);
+    border: 0;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    margin-top: 2rem;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.hero button:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.interHeader {
+    text-align: center;
+    color: white;
+    padding: 12px;
+}
+
+.menu {
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    color: white;
+    float: left;
+    min-width: 49%;
+    max-width: 50%;
+    height: 200px;
+    width: 55px;
+    border: white 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 8px;
+    text-align: center;
+}
+
+.ButtonWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.buyButtonAccept button {
+    background: linear-gradient(to bottom right, #00ff0b, #a4ff9e);
+    border: 0;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 2.5;
+    margin-top: 2rem;
+    margin-right: 5px;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.buyButtonDelete button{
+    background: linear-gradient(to bottom right, #ff0000, #ff5900);
+    border: 0;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 2.5;
+    margin-top: 2rem;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.title a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+    text-decoration: underline;
+}
+
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+}
+
+.title,
+.description {
+    text-align: center;
+}
+
+.description {
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.code {
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.card {
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+    color: #0070f3;
+    border-color: #0070f3;
+}
+
+.card h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.card p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.logo {
+    height: 1em;
+    margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+    .grid {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+.interactive {
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+
+
+    /*height: 600px;*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*color: white;*/
+
+    /*align-items: center;*/
+    border: white 1px solid;
+}
+
+.interactiveContainer {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 20% 45% 35%;
+
+
+}
+
+.interactiveBox {
+
+    /*background-color: #444;*/
+    /*color: #fffffffff;*/
+    /*opacity: 50%;*/
+    border-radius: 5px;
+    padding: 5%;
+    margin: 0.5%;
+
+
+    font-size: 150%;
+
+}
+
+.pizza {
+
+    text-align: center;
+
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    height: 100%;
+
+
+}
+.griditem {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: center;
+
+    /*margin: 5px;*/
+}
+
+.velkostcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    height: 100%;
+
+
+}
+.velkostitem {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+
+    text-align: center;
+    /*margin: 5px;*/
+}
+
+.form{
+    margin-top: 80px;
+    position: center;
+    text-align: center;
+    height: 200px;
+    color: white;
+    border-radius: 35px;
+    opacity: 85%;
+    padding: 30px;
+    inline-size: 75%;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.3) +5px 5px, rgba(0, 0, 0, 0.2) +10px 10px, rgba(0, 0, 0, 0.1) +15px 15px, rgba(0, 0, 0, 0.05) +20px 20px, rgba(0, 0, 0, 0.025) +25px 25px;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+}
+
+.h3admin{
+    color: white;
+    margin-top: 80px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
