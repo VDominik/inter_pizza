@@ -5,6 +5,7 @@ import Menu from "../comps/Menu";
 import styles from '../styles/Home.module.css'
 import Link from "next/link";
 import Interactive from "../comps/Interactive";
+import Gallery from "../comps/Gallery"
 
 export default function Home() {
   return (
@@ -30,6 +31,8 @@ export default function Home() {
       </div>
 
     <Menu />
+
+    <Gallery />
 
     <Contact />
 
