@@ -21,6 +21,42 @@ class objednavkySeeder extends Seeder
             'adresa' => "Hlavna 456",
             'tel cislo' => "0915216489"
         ]);
+        DB::table('objednavky')->insert([
+            'nazov' => "Taxikárska",
+            'ingrediencie' => "Šunka, syr, kukurica",
+            'adresa' => "Nová 12",
+            'tel cislo' => "0915216201"
+        ]);
+        DB::table('objednavky')->insert([
+            'nazov' => "Taxikárska",
+            'ingrediencie' => "Šunka, syr, kukurica",
+            'adresa' => "Nová 12",
+            'tel cislo' => "0915216201"
+        ]);
+        DB::table('objednavky')->insert([
+            'nazov' => "Taxikárska",
+            'ingrediencie' => "Šunka, syr, kukurica",
+            'adresa' => "Nová 12",
+            'tel cislo' => "0915216201"
+        ]);
+        DB::table('objednavky')->insert([
+            'nazov' => "Šunkova",
+            'ingrediencie' => "kukurica",
+            'adresa' => "Hlavna 456",
+            'tel cislo' => "0915216489"
+        ]);
+        DB::table('objednavky')->insert([
+            'nazov' => "Šunkova",
+            'ingrediencie' => "kukurica",
+            'adresa' => "Hlavna 456",
+            'tel cislo' => "0915216489"
+        ]);
+        DB::table('objednavky')->insert([
+            'nazov' => "Šunkova",
+            'ingrediencie' => "kukurica",
+            'adresa' => "Hlavna 456",
+            'tel cislo' => "0915216489"
+        ]);
     }
 }
 
