@@ -3,6 +3,7 @@
   background-image: url("../public/pizzabackground.png");
   object-fit: scale-down;
   background-attachment: fixed;
+  z-index: 999;
 }
 
 .main {
@@ -118,7 +119,6 @@
   background: none;
   border: none;
 }
-
 
 .footer a {
   display: flex;
@@ -243,8 +243,10 @@ background-size: cover;
   /*color: #fffffffff;*/
   /*opacity: 50%;*/
 
-  margin: 0.5%;
-position: relative;
+  border-radius: 5px;
+  padding: 5%;
+  position: relative;
+
 
 
   font-size: 150%;
@@ -252,9 +254,9 @@ position: relative;
 }
 
 .pizza {
-
+text-align: center;
 height: 100%;
-  position: absolute;
+position: absolute;
 
 }
 
