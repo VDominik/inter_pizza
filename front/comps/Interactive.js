@@ -124,6 +124,18 @@ export default function Interactive ({ingredience, setIngredients}) {
                     <motion.div
                         initial={{ opacity: 0 }}
                         animate={{
+                            x: ingredience["syr"] ? 1 : 700,
+                            opacity: ingredience["syr"] ? 1 : 0,
+                        }}
+                        transition={{ duration: 1 }}
+                        className={styles.ingerdiencie}
+                    >
+                        <img className={styles.ingerdiencie} src="/suroviny/syr.png"></img>
+                    </motion.div>
+
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{
                             x: ingredience["cibula"] ? 1 : 700,
                             opacity: ingredience["cibula"] ? 1 : 0,
                         }}
